@@ -17,6 +17,8 @@
 **/
 @property (nonatomic, strong) XMPPJID * bareJid;      // Transient (proper type, not on disk)
 @property (nonatomic, strong) NSString * bareJidStr;  // Shadow (binary data, written to disk)
+    
+@property (nonatomic, strong) NSString * status;  // Shadow (binary data, written to disk)
 
 @property (nonatomic, strong) NSString * body;
 @property (nonatomic, strong) NSString * thread;
