@@ -140,6 +140,7 @@ static NSString *const XMPPMUCOwnerNamespace = @"http://jabber.org/protocol/muc#
 - (void)fetchBanList;
 - (void)fetchMembersList;
 - (void)fetchModeratorsList;
+- (void)fetchAffliation:(NSString *)affliation;
 
 /**
  * The ban list, member list, and moderator list are simply subsets of the room privileges list.
